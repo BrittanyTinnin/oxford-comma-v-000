@@ -10,7 +10,7 @@ def oxford_comma(array)
     #look at the last item in that array and change it to have an "and " before it
     #join each item in the array with a comma and a space and return that string
 
-    return array.join(", ") + array[-1]
+    return array.join(", ") + "and" + array[-1]
   else
     return array.join
   end
